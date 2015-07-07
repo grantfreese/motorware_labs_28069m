@@ -1,0 +1,15 @@
+
+**** Clean-only build of configuration Release for project motion_proj_lab05d ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "motion_proj_lab05d.out" 
+Could Not Find C:\work\ws_ccs_motorware\motion_proj_lab05d\Release\motion_proj_lab05d.out
+DEL /F "proj_lab05d.pp" "drivers\adc.pp" "drivers\clarke.pp" "drivers\clk.pp" "drivers\cpu.pp" "drivers\ctrl.pp" "drivers\drv8301.pp" "drivers\filter_fo.pp" "drivers\flash.pp" "drivers\gpio.pp" "drivers\hal.pp" "drivers\ipark.pp" "drivers\memCopy.pp" "drivers\offset.pp" "drivers\osc.pp" "drivers\park.pp" "drivers\pid.pp" "drivers\pie.pp" "drivers\pll.pp" "drivers\pwm.pp" "drivers\pwr.pp" "drivers\spi.pp" "drivers\svgen.pp" "drivers\timer.pp" "drivers\traj.pp" "drivers\user.pp" "drivers\wdog.pp" 
+DEL /F "proj_lab05d.obj" "drivers\CodeStartBranch.obj" "drivers\adc.obj" "drivers\clarke.obj" "drivers\clk.obj" "drivers\cpu.obj" "drivers\ctrl.obj" "drivers\drv8301.obj" "drivers\filter_fo.obj" "drivers\flash.obj" "drivers\gpio.obj" "drivers\hal.obj" "drivers\ipark.obj" "drivers\memCopy.obj" "drivers\offset.obj" "drivers\osc.obj" "drivers\park.obj" "drivers\pid.obj" "drivers\pie.obj" "drivers\pll.obj" "drivers\pwm.obj" "drivers\pwr.obj" "drivers\spi.obj" "drivers\svgen.obj" "drivers\timer.obj" "drivers\traj.obj" "drivers\usDelay.obj" "drivers\user.obj" "drivers\wdog.obj" 
+Could Not Find C:\work\ws_ccs_motorware\motion_proj_lab05d\Release\proj_lab05d.obj
+DEL /F "drivers\CodeStartBranch.pp" "drivers\usDelay.pp" 
+Could Not Find C:\work\ws_ccs_motorware\motion_proj_lab05d\Release\drivers\CodeStartBranch.pp
+'Finished clean'
+' '
+
+**** Build Finished ****
