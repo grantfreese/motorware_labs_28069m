@@ -60,11 +60,12 @@ extern "C" {
 //! \brief Defines the full scale frequency for IQ variable, Hz
 //! \brief All frequencies are converted into (pu) based on the ratio to this value
 //! \brief this value MUST be larger than the maximum speed that you are expecting from the motor
-#ifndef QEP
-#define USER_IQ_FULL_SCALE_FREQ_Hz        (800.0)   // 800 Example with buffer for 8-pole 6 KRPM motor to be run to 10 KRPM with field weakening; Hz =(RPM * Poles) / 120
-#else
-#define USER_IQ_FULL_SCALE_FREQ_Hz        (USER_MOTOR_NUM_POLE_PAIRS/0.008)   // (4/0.008) = 500 Example with buffer for 8-pole 6 KRPM motor to be run to 6 KRPM; Hz = (RPM * Poles) / 120
-#endif
+//#ifndef QEP
+//#define USER_IQ_FULL_SCALE_FREQ_Hz        (800.0)   // 800 Example with buffer for 8-pole 6 KRPM motor to be run to 10 KRPM with field weakening; Hz =(RPM * Poles) / 120
+//#else
+//#define USER_IQ_FULL_SCALE_FREQ_Hz        (USER_MOTOR_NUM_POLE_PAIRS/0.008)   // (4/0.008) = 500 Example with buffer for 8-pole 6 KRPM motor to be run to 6 KRPM; Hz = (RPM * Poles) / 120
+//#endif
+#define USER_IQ_FULL_SCALE_FREQ_Hz        (700.0)	// 3k rpm * 24 poles / 120 = 600
 
 //! \brief Defines full scale value for the IQ30 variable of Voltage inside the system
 //! \brief All voltages are converted into (pu) based on the ratio to this value
@@ -214,6 +215,8 @@ extern "C" {
 #define Estun_EMJ_04APB22           101
 #define Anaheim_BLY172S             102
 #define Teknic_M2310PLN04K          104
+#define Maxim_323772				105
+#define PMDM_BLDC24P16A				106
 
 // IPM motors
 // If user provides separate Ls-d, Ls-q
@@ -228,7 +231,9 @@ extern "C" {
 //! \brief Once your ideal settings and parameters are identified update the motor section here so it is available in the binary code
 //#define USER_MOTOR Estun_EMJ_04APB22
 //#define USER_MOTOR Anaheim_BLY172S
-#define USER_MOTOR Teknic_M2310PLN04K
+//#define USER_MOTOR Teknic_M2310PLN04K
+#define USER_MOTOR Maxim_323772
+//#define USER_MOTOR PMDM_BLDC24P16A
 //#define USER_MOTOR Belt_Drive_Washer_IPM
 //#define USER_MOTOR Marathon_5K33GN2A
 
@@ -286,6 +291,38 @@ extern "C" {
 #define USER_MOTOR_MAX_SPEED_KRPM       (4.0)
 #define USER_SYSTEM_INERTIA             (0.02)
 #define USER_SYSTEM_FRICTION            (0.01)
+
+#elif (USER_MOTOR == Maxim_323772)
+#define USER_MOTOR_TYPE                 MOTOR_Type_Pm
+#define USER_MOTOR_NUM_POLE_PAIRS       (12)
+#define USER_MOTOR_Rr                   (NULL)
+#define USER_MOTOR_Rs                   (0.1867203)
+#define USER_MOTOR_Ls_d                 (0.00026)	//measured 260 uH with meter (0.00026)
+#define USER_MOTOR_Ls_q                 (0.00026)
+#define USER_MOTOR_RATED_FLUX           (0.02258131)
+#define USER_MOTOR_MAGNETIZING_CURRENT  (NULL)
+#define USER_MOTOR_RES_EST_CURRENT      (0.6)
+#define USER_MOTOR_IND_EST_CURRENT      (-0.6)
+#define USER_MOTOR_MAX_CURRENT          (6.06)
+#define USER_MOTOR_FLUX_EST_FREQ_Hz     (32.0)
+#define USER_MOTOR_ENCODER_LINES        (1600.0)
+#define USER_MOTOR_MAX_SPEED_KRPM       (3.0)          // Maximum speed that the motor
+#define USER_SYSTEM_INERTIA             (1.342)         // Inertia of the motor & system, should be estimated by SpinTAC Velocity Identify
+#define USER_SYSTEM_FRICTION            (1.422)         // Friction of the motor & system, should be estimated by SpinTAC Velocity Identify
+
+#elif (USER_MOTOR == PMDM_BLDC24P16A)
+#define USER_MOTOR_TYPE                 MOTOR_Type_Pm
+#define USER_MOTOR_NUM_POLE_PAIRS       (3)
+#define USER_MOTOR_Rr                   (NULL)
+#define USER_MOTOR_Rs                   (0.3)
+#define USER_MOTOR_Ls_d                 (0.00001626)
+#define USER_MOTOR_Ls_q                 (0.00001626)
+#define USER_MOTOR_RATED_FLUX           (NULL)
+#define USER_MOTOR_MAGNETIZING_CURRENT  (NULL)
+#define USER_MOTOR_RES_EST_CURRENT      (1.0)
+#define USER_MOTOR_IND_EST_CURRENT      (-1.0)
+#define USER_MOTOR_MAX_CURRENT          (5.0)
+#define USER_MOTOR_FLUX_EST_FREQ_Hz     (32.0)
 
 #elif (USER_MOTOR == Belt_Drive_Washer_IPM)
 #define USER_MOTOR_TYPE                 MOTOR_Type_Pm
