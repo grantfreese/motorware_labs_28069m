@@ -155,6 +155,12 @@ foc_proj_lab10c.out \
 EXE_OUTPUTS__QUOTED += \
 "foc_proj_lab10c.out" \
 
+BIN_OUTPUTS += \
+foc_proj_lab10c.hex \
+
+BIN_OUTPUTS__QUOTED += \
+"foc_proj_lab10c.hex" \
+
 
 # All Target
 all: foc_proj_lab10c.out
@@ -167,9 +173,15 @@ foc_proj_lab10c.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
+foc_proj_lab10c.hex: $(EXE_OUTPUTS)
+	@echo 'Invoking: C2000 Hex Utility'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/hex2000"  -o "foc_proj_lab10c.hex" $(EXE_OUTPUTS__QUOTED)
+	@echo 'Finished building: $@'
+	@echo ' '
+
 # Other Targets
 clean:
-	-$(RM) $(EXE_OUTPUTS__QUOTED)
+	-$(RM) $(EXE_OUTPUTS__QUOTED)$(BIN_OUTPUTS__QUOTED)
 	-$(RM) "proj_lab10c.pp" "drivers\adc.pp" "drivers\clarke.pp" "drivers\clk.pp" "drivers\cpu.pp" "drivers\ctrl.pp" "drivers\drv8301.pp" "drivers\filter_fo.pp" "drivers\flash.pp" "drivers\fw.pp" "drivers\gpio.pp" "drivers\hal.pp" "drivers\ipark.pp" "drivers\memCopy.pp" "drivers\offset.pp" "drivers\osc.pp" "drivers\park.pp" "drivers\pid.pp" "drivers\pie.pp" "drivers\pll.pp" "drivers\pwm.pp" "drivers\pwr.pp" "drivers\spi.pp" "drivers\svgen.pp" "drivers\svgen_current.pp" "drivers\timer.pp" "drivers\traj.pp" "drivers\user.pp" "drivers\wdog.pp" 
 	-$(RM) "proj_lab10c.obj" "drivers\CodeStartBranch.obj" "drivers\adc.obj" "drivers\clarke.obj" "drivers\clk.obj" "drivers\cpu.obj" "drivers\ctrl.obj" "drivers\drv8301.obj" "drivers\filter_fo.obj" "drivers\flash.obj" "drivers\fw.obj" "drivers\gpio.obj" "drivers\hal.obj" "drivers\ipark.obj" "drivers\memCopy.obj" "drivers\offset.obj" "drivers\osc.obj" "drivers\park.obj" "drivers\pid.obj" "drivers\pie.obj" "drivers\pll.obj" "drivers\pwm.obj" "drivers\pwr.obj" "drivers\spi.obj" "drivers\svgen.obj" "drivers\svgen_current.obj" "drivers\timer.obj" "drivers\traj.obj" "drivers\usDelay.obj" "drivers\user.obj" "drivers\wdog.obj" 
 	-$(RM) "drivers\CodeStartBranch.pp" "drivers\usDelay.pp" 

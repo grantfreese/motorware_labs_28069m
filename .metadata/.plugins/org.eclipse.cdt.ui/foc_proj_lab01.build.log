@@ -1,96 +1,91 @@
 
 **** Build of configuration Release for project foc_proj_lab01 ****
 
-"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k -j 8 all 
 'Building file: ../proj_lab01.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="proj_lab01.pp"  "../proj_lab01.c"
-'Finished building: ../proj_lab01.c'
-' '
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/adc/src/32b/f28x/f2806x/adc.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/adc.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/adc/src/32b/f28x/f2806x/adc.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/adc/src/32b/f28x/f2806x/adc.c'
-' '
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/clk/src/32b/f28x/f2806x/clk.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/clk.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/clk/src/32b/f28x/f2806x/clk.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/clk/src/32b/f28x/f2806x/clk.c'
-' '
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/cpu/src/32b/f28x/f2806x/cpu.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/cpu.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/cpu/src/32b/f28x/f2806x/cpu.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/cpu/src/32b/f28x/f2806x/cpu.c'
-' '
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/drvic/drv8301/src/32b/f28x/f2806x/drv8301.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/drv8301.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/drvic/drv8301/src/32b/f28x/f2806x/drv8301.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/drvic/drv8301/src/32b/f28x/f2806x/drv8301.c'
-' '
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/flash/src/32b/f28x/f2806x/flash.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/flash.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/flash/src/32b/f28x/f2806x/flash.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/flash/src/32b/f28x/f2806x/flash.c'
-' '
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/gpio/src/32b/f28x/f2806x/gpio.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/gpio.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/gpio/src/32b/f28x/f2806x/gpio.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/gpio/src/32b/f28x/f2806x/gpio.c'
-' '
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/hal.c'
 'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/hal.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/hal.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/hal.c'
+'Invoking: C2000 Compiler'
+'Invoking: C2000 Compiler'
+'Invoking: C2000 Compiler'
+'Invoking: C2000 Compiler'
+'Invoking: C2000 Compiler'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="proj_lab01.pp"  "../proj_lab01.c"
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/adc.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/adc/src/32b/f28x/f2806x/adc.c"
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/clk.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/clk/src/32b/f28x/f2806x/clk.c"
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/cpu.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/cpu/src/32b/f28x/f2806x/cpu.c"
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/drv8301.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/drvic/drv8301/src/32b/f28x/f2806x/drv8301.c"
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/flash.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/flash/src/32b/f28x/f2806x/flash.c"
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/gpio.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/gpio/src/32b/f28x/f2806x/gpio.c"
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/hal.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/hal.c"
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/flash/src/32b/f28x/f2806x/flash.c'
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/cpu/src/32b/f28x/f2806x/cpu.c'
+' '
 ' '
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/osc/src/32b/f28x/f2806x/osc.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/osc.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/osc/src/32b/f28x/f2806x/osc.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/osc/src/32b/f28x/f2806x/osc.c'
-' '
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pie/src/32b/f28x/f2806x/pie.c'
 'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/pie.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pie/src/32b/f28x/f2806x/pie.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pie/src/32b/f28x/f2806x/pie.c'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/osc.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/osc/src/32b/f28x/f2806x/osc.c"
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/pie.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pie/src/32b/f28x/f2806x/pie.c"
+'Finished building: ../proj_lab01.c'
 ' '
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/adc/src/32b/f28x/f2806x/adc.c'
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pll/src/32b/f28x/f2806x/pll.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/pll.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pll/src/32b/f28x/f2806x/pll.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pll/src/32b/f28x/f2806x/pll.c'
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/clk/src/32b/f28x/f2806x/clk.c'
 ' '
-'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwm/src/32b/f28x/f2806x/pwm.c'
 'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/pwm.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwm/src/32b/f28x/f2806x/pwm.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwm/src/32b/f28x/f2806x/pwm.c'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/pll.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pll/src/32b/f28x/f2806x/pll.c"
 ' '
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwr/src/32b/f28x/f2806x/pwr.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/pwr.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwr/src/32b/f28x/f2806x/pwr.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwr/src/32b/f28x/f2806x/pwr.c'
-' '
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/gpio/src/32b/f28x/f2806x/gpio.c'
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/osc/src/32b/f28x/f2806x/osc.c'
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c'
 'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/spi.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c'
 ' '
-'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/timer/src/32b/f28x/f2806x/timer.c'
+' '
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/pwr.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwr/src/32b/f28x/f2806x/pwr.c"
 'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/timer.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/timer/src/32b/f28x/f2806x/timer.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/timer/src/32b/f28x/f2806x/timer.c'
-' '
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/spi.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c"
+'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/timer/src/32b/f28x/f2806x/timer.c'
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/modules/usDelay/src/32b/f28x/usDelay.asm'
 'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/usDelay.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/modules/usDelay/src/32b/f28x/usDelay.asm"
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/timer.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/timer/src/32b/f28x/f2806x/timer.c"
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/usDelay.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/modules/usDelay/src/32b/f28x/usDelay.asm"
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/drvic/drv8301/src/32b/f28x/f2806x/drv8301.c'
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pll/src/32b/f28x/f2806x/pll.c'
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwr/src/32b/f28x/f2806x/pwr.c'
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pie/src/32b/f28x/f2806x/pie.c'
+' '
+' '
 'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/modules/usDelay/src/32b/f28x/usDelay.asm'
 ' '
+' '
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/timer/src/32b/f28x/f2806x/timer.c'
 'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/modules/user/src/32b/user.c'
+'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/wdog/src/32b/f28x/f2806x/wdog.c'
+' '
+' '
 'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/user.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/modules/user/src/32b/user.c"
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/user.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/modules/user/src/32b/user.c"
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/wdog.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/wdog/src/32b/f28x/f2806x/wdog.c"
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c'
+' '
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/wdog/src/32b/f28x/f2806x/wdog.c'
+' '
 'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/modules/user/src/32b/user.c'
 ' '
-'Building file: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/wdog/src/32b/f28x/f2806x/wdog.c'
-'Invoking: C2000 Compiler'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 --include_path="C:/work/ws_ccs_motorware/inc_foc" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --include_path="C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/" --include_path="C:/Users/grant/src" --include_path="C:/ti/motorware/motorware_1_01_00_14" -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="drivers/wdog.pp" --obj_directory="drivers"  "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/wdog/src/32b/f28x/f2806x/wdog.c"
-'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/drivers/wdog/src/32b/f28x/f2806x/wdog.c'
+'Finished building: C:/ti/motorware/motorware_1_01_00_14/sw/modules/hal/boards/boostxldrv8301_revB/f28x/f2806x/src/hal.c'
 ' '
 'Building target: foc_proj_lab01.out'
 'Invoking: C2000 Linker'

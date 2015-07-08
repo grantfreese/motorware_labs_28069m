@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    1
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                         PC v6.4.4 *
-       3              ;* Date/Time created: Wed Jul 08 10:29:42 2015                 *
+       3              ;* Date/Time created: Wed Jul 08 12:49:30 2015                 *
        4              ;***************************************************************
        5                      .compiler_opts --float_support=softlib --hll_source=on --mem_model:code=flat --mem_model:data=large -
        6        0002  FP      .set    XAR2
@@ -58,10 +58,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    1
       53                      .dwattr $C$DW$4, DW_AT_type(*$C$DW$T$68)
       54                      .dwattr $C$DW$4, DW_AT_location[DW_OP_reg12]
       55              ;* AL    assigned to _fifoLevel
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    2
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE    2
 
       56              $C$DW$5 .dwtag  DW_TAG_variable, DW_AT_name("fifoLevel")
       57                      .dwattr $C$DW$5, DW_AT_TI_symbol_name("_fifoLevel")
@@ -118,10 +118,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    2
      107              ;*                                                             *
      108              ;* FUNCTION ENVIRONMENT                                        *
      109              ;*                                                             *
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    3
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE    3
 
      110              ;* FUNCTION PROPERTIES                                         *
      111              ;*                            0 Parameter,  0 Auto,  0 SOE     *
@@ -178,10 +178,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    3
      162                      .dwattr $C$DW$15, DW_AT_TI_symbol_name("_triwire")
      163                      .dwattr $C$DW$15, DW_AT_type(*$C$DW$T$66)
      164                      .dwattr $C$DW$15, DW_AT_location[DW_OP_reg0]
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    4
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE    4
 
      165              
      166              ;***************************************************************
@@ -238,10 +238,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    4
      216                      .dwattr $C$DW$19, DW_AT_TI_begin_line(0x20c)
      217                      .dwattr $C$DW$19, DW_AT_TI_begin_column(0x06)
      218                      .dwattr $C$DW$19, DW_AT_TI_max_frame_size(-2)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    5
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE    5
 
      219                      .dwpsn  file "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c",line 525
      220              
@@ -298,10 +298,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    5
      270              
      271 00000018               .sect   ".text"
      272                      .clink
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    6
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE    6
 
      273                      .global _SPI_setSteInv
      274              
@@ -358,10 +358,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    6
      324 0000001d 98C4          OR        *+XAR4[0],AL          ; [CPU_] |518| 
      325              $C$DW$30        .dwtag  DW_TAG_TI_branch
      326                      .dwattr $C$DW$30, DW_AT_low_pc(0x00)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    7
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE    7
 
      327                      .dwattr $C$DW$30, DW_AT_TI_return
      328 0000001e 0006          LRETR     ; [CPU_] 
@@ -418,10 +418,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    7
      379                      .dwattr $C$DW$35, DW_AT_type(*$C$DW$T$57)
      380                      .dwattr $C$DW$35, DW_AT_location[DW_OP_reg0]
      381                      .dwcfi  cfa_offset, -2
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    8
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE    8
 
      382                      .dwcfi  save_reg_to_mem, 26, 0
      383                      .dwpsn  file "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c",line 502
@@ -478,10 +478,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    8
      433              ;***************************************************************
      434              
      435              _SPI_setPriority:
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    9
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE    9
 
      436              ;* AR4   assigned to _spiHandle
      437              $C$DW$40        .dwtag  DW_TAG_variable, DW_AT_name("spiHandle")
@@ -538,10 +538,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE    9
      487                      .dwattr $C$DW$45, DW_AT_TI_symbol_name("_mode")
      488                      .dwattr $C$DW$45, DW_AT_type(*$C$DW$T$51)
      489                      .dwattr $C$DW$45, DW_AT_location[DW_OP_reg0]
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   10
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   10
 
      490              
      491              ;***************************************************************
@@ -598,10 +598,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   10
      542              $C$DW$50        .dwtag  DW_TAG_formal_parameter, DW_AT_name("spiHandle")
      543                      .dwattr $C$DW$50, DW_AT_TI_symbol_name("_spiHandle")
      544                      .dwattr $C$DW$50, DW_AT_type(*$C$DW$T$26)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   11
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   11
 
      545                      .dwattr $C$DW$50, DW_AT_location[DW_OP_reg12]
      546              $C$DW$51        .dwtag  DW_TAG_formal_parameter, DW_AT_name("polarity")
@@ -658,10 +658,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   11
      596                      .dwattr $C$DW$55, DW_AT_external
      597                      .dwattr $C$DW$55, DW_AT_TI_begin_file("C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f2
      598                      .dwattr $C$DW$55, DW_AT_TI_begin_line(0x1bb)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   12
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   12
 
      599                      .dwattr $C$DW$55, DW_AT_TI_begin_column(0x06)
      600                      .dwattr $C$DW$55, DW_AT_TI_max_frame_size(-2)
@@ -718,10 +718,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   12
      651              
      652              $C$DW$61        .dwtag  DW_TAG_subprogram, DW_AT_name("SPI_setCharLength")
      653                      .dwattr $C$DW$61, DW_AT_low_pc(_SPI_setCharLength)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   13
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   13
 
      654                      .dwattr $C$DW$61, DW_AT_high_pc(0x00)
      655                      .dwattr $C$DW$61, DW_AT_TI_symbol_name("_SPI_setCharLength")
@@ -778,10 +778,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   13
      705                      .dwattr $C$DW$61, DW_AT_TI_end_line(0x1b8)
      706                      .dwattr $C$DW$61, DW_AT_TI_end_column(0x01)
      707                      .dwendentry
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   14
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   14
 
      708                      .dwendtag $C$DW$61
      709              
@@ -838,10 +838,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   14
      760                      .dwattr $C$DW$72, DW_AT_low_pc(0x00)
      761                      .dwattr $C$DW$72, DW_AT_TI_return
      762 0000003a 0006          LRETR     ; [CPU_] 
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   15
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   15
 
      763                      ; return occurs ; [] 
      764                      .dwattr $C$DW$67, DW_AT_TI_end_file("C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x
@@ -898,10 +898,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   15
      814                      .dwendentry
      815                      .dwendtag $C$DW$73
      816              
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   16
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   16
 
      817 0000003f               .sect   ".text"
      818                      .clink
@@ -958,10 +958,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   16
      868              $C$DW$79        .dwtag  DW_TAG_subprogram, DW_AT_name("SPI_resetChannels")
      869                      .dwattr $C$DW$79, DW_AT_low_pc(_SPI_resetChannels)
      870                      .dwattr $C$DW$79, DW_AT_high_pc(0x00)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   17
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   17
 
      871                      .dwattr $C$DW$79, DW_AT_TI_symbol_name("_SPI_resetChannels")
      872                      .dwattr $C$DW$79, DW_AT_external
@@ -1018,10 +1018,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   17
      922                      .dwattr $C$DW$82, DW_AT_TI_begin_column(0x06)
      923                      .dwattr $C$DW$82, DW_AT_TI_max_frame_size(-2)
      924                      .dwpsn  file "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c",line 371
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   18
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   18
 
      925              
      926                      .dwfde $C$DW$CIE, _SPI_reset
@@ -1078,10 +1078,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   18
      976                      .dwpsn  file "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c",line 356
      977              
      978                      .dwfde $C$DW$CIE, _SPI_init
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   19
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   19
 
      979              $C$DW$87        .dwtag  DW_TAG_formal_parameter, DW_AT_name("pMemory")
      980                      .dwattr $C$DW$87, DW_AT_TI_symbol_name("_pMemory")
@@ -1138,10 +1138,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   19
     1030                      .dwattr $C$DW$91, DW_AT_high_pc(0x00)
     1031                      .dwattr $C$DW$91, DW_AT_TI_symbol_name("_SPI_getTxFifoStatus")
     1032                      .dwattr $C$DW$91, DW_AT_external
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   20
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   20
 
     1033                      .dwattr $C$DW$91, DW_AT_type(*$C$DW$T$24)
     1034                      .dwattr $C$DW$91, DW_AT_TI_begin_file("C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f2
@@ -1198,10 +1198,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   20
     1084                      .global _SPI_getTxBufferStatus
     1085              
     1086              $C$DW$96        .dwtag  DW_TAG_subprogram, DW_AT_name("SPI_getTxBufferStatus")
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   21
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   21
 
     1087                      .dwattr $C$DW$96, DW_AT_low_pc(_SPI_getTxBufferStatus)
     1088                      .dwattr $C$DW$96, DW_AT_high_pc(0x00)
@@ -1258,10 +1258,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   21
     1138              
     1139 00000058               .sect   ".text"
     1140                      .clink
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   22
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   22
 
     1141                      .global _SPI_getRxFifoStatus
     1142              
@@ -1318,10 +1318,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   22
     1192                      .dwattr $C$DW$101, DW_AT_TI_end_line(0x13c)
     1193                      .dwattr $C$DW$101, DW_AT_TI_end_column(0x01)
     1194                      .dwendentry
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   23
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   23
 
     1195                      .dwendtag $C$DW$101
     1196              
@@ -1378,10 +1378,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   23
     1246 0000005e 0006          LRETR     ; [CPU_] 
     1247                      ; return occurs ; [] 
     1248                      .dwattr $C$DW$106, DW_AT_TI_end_file("C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   24
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   24
 
     1249                      .dwattr $C$DW$106, DW_AT_TI_end_line(0x154)
     1250                      .dwattr $C$DW$106, DW_AT_TI_end_column(0x01)
@@ -1438,10 +1438,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   24
     1300              
     1301 00000063               .sect   ".text"
     1302                      .clink
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   25
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   25
 
     1303                      .global _SPI_enableTxFifoEnh
     1304              
@@ -1498,10 +1498,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   25
     1354                      .dwattr $C$DW$117, DW_AT_high_pc(0x00)
     1355                      .dwattr $C$DW$117, DW_AT_TI_symbol_name("_SPI_enableTxFifo")
     1356                      .dwattr $C$DW$117, DW_AT_external
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   26
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   26
 
     1357                      .dwattr $C$DW$117, DW_AT_TI_begin_file("C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f
     1358                      .dwattr $C$DW$117, DW_AT_TI_begin_line(0x10f)
@@ -1558,10 +1558,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   26
     1408                      .dwpsn  file "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c",line 260
     1409              
     1410                      .dwfde $C$DW$CIE, _SPI_enableTx
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   27
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   27
 
     1411              $C$DW$121       .dwtag  DW_TAG_formal_parameter, DW_AT_name("spiHandle")
     1412                      .dwattr $C$DW$121, DW_AT_TI_symbol_name("_spiHandle")
@@ -1618,10 +1618,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   27
     1462              $C$DW$125       .dwtag  DW_TAG_formal_parameter, DW_AT_name("spiHandle")
     1463                      .dwattr $C$DW$125, DW_AT_TI_symbol_name("_spiHandle")
     1464                      .dwattr $C$DW$125, DW_AT_type(*$C$DW$T$26)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   28
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   28
 
     1465                      .dwattr $C$DW$125, DW_AT_location[DW_OP_reg12]
     1466              
@@ -1678,10 +1678,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   28
     1516              ;*                                                             *
     1517              ;* FUNCTION ENVIRONMENT                                        *
     1518              ;*                                                             *
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   29
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   29
 
     1519              ;* FUNCTION PROPERTIES                                         *
     1520              ;*                            0 Parameter,  0 Auto,  0 SOE     *
@@ -1738,10 +1738,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   29
     1570              _SPI_enableOverRunInt:
     1571              ;* AR4   assigned to _spiHandle
     1572              $C$DW$132       .dwtag  DW_TAG_variable, DW_AT_name("spiHandle")
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   30
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   30
 
     1573                      .dwattr $C$DW$132, DW_AT_TI_symbol_name("_spiHandle")
     1574                      .dwattr $C$DW$132, DW_AT_type(*$C$DW$T$68)
@@ -1798,10 +1798,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   30
     1624                      .dwattr $C$DW$136, DW_AT_TI_symbol_name("_spiHandle")
     1625                      .dwattr $C$DW$136, DW_AT_type(*$C$DW$T$68)
     1626                      .dwattr $C$DW$136, DW_AT_location[DW_OP_reg12]
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   31
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   31
 
     1627                      .dwcfi  cfa_offset, -2
     1628                      .dwcfi  save_reg_to_mem, 26, 0
@@ -1858,10 +1858,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   31
     1678                      .dwcfi  cfa_offset, -2
     1679                      .dwcfi  save_reg_to_mem, 26, 0
     1680                      .dwpsn  file "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c",line 205
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   32
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   32
 
     1681 0000007c 1ACC          OR        *+XAR4[1],#0x0001     ; [CPU_] |205| 
          0000007d 0001 
@@ -1918,10 +1918,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   32
     1731                      .dwattr $C$DW$144, DW_AT_TI_return
     1732 00000082 0006          LRETR     ; [CPU_] 
     1733                      ; return occurs ; [] 
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   33
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   33
 
     1734                      .dwattr $C$DW$142, DW_AT_TI_end_file("C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28
     1735                      .dwattr $C$DW$142, DW_AT_TI_end_line(0xc4)
@@ -1978,10 +1978,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   33
     1785                      .dwattr $C$DW$145, DW_AT_TI_end_file("C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28
     1786                      .dwattr $C$DW$145, DW_AT_TI_end_line(0xb8)
     1787                      .dwattr $C$DW$145, DW_AT_TI_end_column(0x01)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   34
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   34
 
     1788                      .dwendentry
     1789                      .dwendtag $C$DW$145
@@ -2038,10 +2038,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   34
     1839                      .clink
     1840                      .global _SPI_disableTxFifoEnh
     1841              
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   35
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   35
 
     1842              $C$DW$152       .dwtag  DW_TAG_subprogram, DW_AT_name("SPI_disableTxFifoEnh")
     1843                      .dwattr $C$DW$152, DW_AT_low_pc(_SPI_disableTxFifoEnh)
@@ -2098,10 +2098,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   35
     1893                      .dwattr $C$DW$155, DW_AT_external
     1894                      .dwattr $C$DW$155, DW_AT_TI_begin_file("C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f
     1895                      .dwattr $C$DW$155, DW_AT_TI_begin_line(0x8b)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   36
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   36
 
     1896                      .dwattr $C$DW$155, DW_AT_TI_begin_column(0x06)
     1897                      .dwattr $C$DW$155, DW_AT_TI_max_frame_size(-2)
@@ -2158,10 +2158,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   36
     1947                      .dwattr $C$DW$159, DW_AT_TI_begin_column(0x06)
     1948                      .dwattr $C$DW$159, DW_AT_TI_max_frame_size(-2)
     1949                      .dwpsn  file "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28x/f2806x/spi.c",line 128
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   37
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   37
 
     1950              
     1951                      .dwfde $C$DW$CIE, _SPI_disableRxFifoInt
@@ -2218,10 +2218,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   37
     2001                      .dwattr $C$DW$163, DW_AT_type(*$C$DW$T$26)
     2002                      .dwattr $C$DW$163, DW_AT_location[DW_OP_reg12]
     2003              
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   38
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   38
 
     2004              ;***************************************************************
     2005              ;* FNAME: _SPI_disableOverRunInt        FR SIZE:   0           *
@@ -2278,10 +2278,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   38
     2055              ;***************************************************************
     2056              ;* FNAME: _SPI_disableLoopBack          FR SIZE:   0           *
     2057              ;*                                                             *
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   39
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   39
 
     2058              ;* FUNCTION ENVIRONMENT                                        *
     2059              ;*                                                             *
@@ -2338,10 +2338,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   39
     2109              ;* FUNCTION ENVIRONMENT                                        *
     2110              ;*                                                             *
     2111              ;* FUNCTION PROPERTIES                                         *
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   40
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   40
 
     2112              ;*                            0 Parameter,  0 Auto,  0 SOE     *
     2113              ;***************************************************************
@@ -2398,10 +2398,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   40
     2163              ;*                            0 Parameter,  0 Auto,  0 SOE     *
     2164              ;***************************************************************
     2165              
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   41
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   41
 
     2166 0000009e       _SPI_clearTxFifoInt:
     2167                      .dwcfi  cfa_offset, -2
@@ -2458,10 +2458,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   41
     2217 000000a2 DC0B          ADDB      XAR4,#11              ; [CPU_] |62| 
     2218 000000a3 1AC4          OR        *+XAR4[0],#0x4000     ; [CPU_] |62| 
          000000a4 4000 
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   42
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   42
 
     2219              $C$DW$179       .dwtag  DW_TAG_TI_branch
     2220                      .dwattr $C$DW$179, DW_AT_low_pc(0x00)
@@ -2518,10 +2518,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   42
     2270                      ; return occurs ; [] 
     2271                      .dwattr $C$DW$180, DW_AT_TI_end_file("C:/ti/motorware/motorware_1_01_00_14/sw/drivers/spi/src/32b/f28
     2272                      .dwattr $C$DW$180, DW_AT_TI_end_line(0x4d)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   43
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   43
 
     2273                      .dwattr $C$DW$180, DW_AT_TI_end_column(0x01)
     2274                      .dwendentry
@@ -2578,10 +2578,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   43
     2325                      .dwattr $C$DW$194, DW_AT_type(*$C$DW$T$38)
     2326              $C$DW$T$39      .dwtag  DW_TAG_const_type
     2327                      .dwattr $C$DW$T$39, DW_AT_type(*$C$DW$194)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   44
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   44
 
     2328              
     2329              $C$DW$T$40      .dwtag  DW_TAG_enumeration_type
@@ -2638,10 +2638,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   44
     2380              $C$DW$217       .dwtag  DW_TAG_TI_far_type
     2381                      .dwattr $C$DW$217, DW_AT_type(*$C$DW$T$47)
     2382              $C$DW$T$48      .dwtag  DW_TAG_const_type
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   45
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   45
 
     2383                      .dwattr $C$DW$T$48, DW_AT_type(*$C$DW$217)
     2384              
@@ -2698,10 +2698,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   45
     2435                      .dwendtag $C$DW$T$58
     2436              
     2437              $C$DW$T$59      .dwtag  DW_TAG_typedef, DW_AT_name("SPI_SteInv_e")
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   46
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   46
 
     2438                      .dwattr $C$DW$T$59, DW_AT_type(*$C$DW$T$58)
     2439                      .dwattr $C$DW$T$59, DW_AT_language(DW_LANG_C)
@@ -2758,10 +2758,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   46
     2490                      .dwattr $C$DW$243, DW_AT_type(*$C$DW$T$20)
     2491                      .dwattr $C$DW$243, DW_AT_name("SPIST")
     2492                      .dwattr $C$DW$243, DW_AT_TI_symbol_name("_SPIST")
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   47
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   47
 
     2493                      .dwattr $C$DW$243, DW_AT_data_member_location[DW_OP_plus_uconst 0x2]
     2494                      .dwattr $C$DW$243, DW_AT_accessibility(DW_ACCESS_public)
@@ -2818,10 +2818,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   47
     2545                      .dwattr $C$DW$252, DW_AT_name("SPIFFRX")
     2546                      .dwattr $C$DW$252, DW_AT_TI_symbol_name("_SPIFFRX")
     2547                      .dwattr $C$DW$252, DW_AT_data_member_location[DW_OP_plus_uconst 0xb]
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   48
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   48
 
     2548                      .dwattr $C$DW$252, DW_AT_accessibility(DW_ACCESS_public)
     2549              $C$DW$253       .dwtag  DW_TAG_member
@@ -2878,10 +2878,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   48
     2600                      .dwattr $C$DW$T$7, DW_AT_encoding(DW_ATE_signed_char)
     2601                      .dwattr $C$DW$T$7, DW_AT_name("wchar_t")
     2602                      .dwattr $C$DW$T$7, DW_AT_byte_size(0x01)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   49
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   49
 
     2603              $C$DW$T$8       .dwtag  DW_TAG_base_type
     2604                      .dwattr $C$DW$T$8, DW_AT_encoding(DW_ATE_signed)
@@ -2938,10 +2938,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   49
     2655              $C$DW$T$70      .dwtag  DW_TAG_const_type
     2656                      .dwattr $C$DW$T$70, DW_AT_type(*$C$DW$260)
     2657              $C$DW$T$14      .dwtag  DW_TAG_base_type
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   50
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   50
 
     2658                      .dwattr $C$DW$T$14, DW_AT_encoding(DW_ATE_signed)
     2659                      .dwattr $C$DW$T$14, DW_AT_name("long long")
@@ -2998,10 +2998,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   50
     2710                      .dwcfi  undefined, 77
     2711                      .dwcfi  undefined, 4
     2712                      .dwcfi  undefined, 5
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   51
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   51
 
     2713                      .dwcfi  same_value, 6
     2714                      .dwcfi  same_value, 7
@@ -3058,10 +3058,10 @@ C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   51
     2765              $C$DW$277       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("PAGE0")
     2766                      .dwattr $C$DW$277, DW_AT_location[DW_OP_regx 0x21]
     2767              $C$DW$278       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AMODE")
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:29:42 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:30 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0809211                            PAGE   52
+C:\Users\grant\AppData\Local\Temp\0440810                            PAGE   52
 
     2768                      .dwattr $C$DW$278, DW_AT_location[DW_OP_regx 0x22]
     2769              $C$DW$279       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("INTM")

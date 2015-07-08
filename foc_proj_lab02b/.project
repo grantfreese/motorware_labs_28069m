@@ -252,9 +252,6 @@
 			<name>MW_INSTALL_DIR</name>
 			<value>$%7BPARENT-1-CCS_INSTALL_ROOT%7D/motorware/motorware_1_01_00_14</value>
 		</variable>
-		<variable>
-			<name>ORIGINAL_PROJECT_ROOT</name>
-			<value>file:/C:/Users/grant/Desktop/temp/foc_proj_lab02b</value>
-		</variable>
+
 	</variableList>
 </projectDescription>

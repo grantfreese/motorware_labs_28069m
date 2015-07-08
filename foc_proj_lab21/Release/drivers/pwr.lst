@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    1
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                         PC v6.4.4 *
-       3              ;* Date/Time created: Wed Jul 08 10:37:10 2015                 *
+       3              ;* Date/Time created: Wed Jul 08 12:49:33 2015                 *
        4              ;***************************************************************
        5                      .compiler_opts --float_support=softlib --hll_source=on --mem_model:code=flat --mem_model:data=large -
        6        0002  FP      .set    XAR2
@@ -58,10 +58,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    1
       53                      .dwattr $C$DW$4, DW_AT_type(*$C$DW$T$32)
       54                      .dwattr $C$DW$4, DW_AT_location[DW_OP_reg12]
       55              ;* AR6   assigned to _numClkCycles
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    2
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE    2
 
       56              $C$DW$5 .dwtag  DW_TAG_variable, DW_AT_name("numClkCycles")
       57                      .dwattr $C$DW$5, DW_AT_TI_symbol_name("_numClkCycles")
@@ -118,10 +118,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    2
      105                      .dwfde $C$DW$CIE, _PWR_setLowPowerMode
      106              $C$DW$8 .dwtag  DW_TAG_formal_parameter, DW_AT_name("pwrHandle")
      107                      .dwattr $C$DW$8, DW_AT_TI_symbol_name("_pwrHandle")
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    3
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE    3
 
      108                      .dwattr $C$DW$8, DW_AT_type(*$C$DW$T$31)
      109                      .dwattr $C$DW$8, DW_AT_location[DW_OP_reg12]
@@ -178,10 +178,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    3
      157 00000021 0006          LRETR     ; [CPU_] 
      158                      ; return occurs ; [] 
      159                      .dwattr $C$DW$7, DW_AT_TI_end_file("C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwr/src/32b/f28x/
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    4
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE    4
 
      160                      .dwattr $C$DW$7, DW_AT_TI_end_line(0x91)
      161                      .dwattr $C$DW$7, DW_AT_TI_end_column(0x01)
@@ -238,10 +238,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    4
      211 00000025 A0A9          MOVL      ACC,XAR5              ; [CPU_] |119| 
      212 00000026 0FA6          CMPL      ACC,XAR6              ; [CPU_] |119| 
      213 00000027 56C9          BF        $C$L1,LOS             ; [CPU_] |119| 
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    5
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE    5
 
          00000028 0003 
      214                      ; branchcc occurs ; [] |119| 
@@ -298,10 +298,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    5
      265                      .dwcfi  save_reg_to_mem, 26, 0
      266 0000002b 7622   EALLOW
      267                      .dwpsn  file "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwr/src/32b/f28x/f2806x/pwr.c",line 105
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    6
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE    6
 
      268 0000002c A8A9          MOVL      ACC,XAR4              ; [CPU_] |105| 
      269 0000002d FF10          ADD       ACC,#26265 << 0       ; [CPU_] |105| 
@@ -358,10 +358,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    6
      318                      .dwattr $C$DW$24, DW_AT_TI_symbol_name("_pwrHandle")
      319                      .dwattr $C$DW$24, DW_AT_type(*$C$DW$T$32)
      320                      .dwattr $C$DW$24, DW_AT_location[DW_OP_reg12]
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    7
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE    7
 
      321                      .dwcfi  cfa_offset, -2
      322                      .dwcfi  save_reg_to_mem, 26, 0
@@ -418,10 +418,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    7
      372                      .dwcfi  cfa_offset, -2
      373                      .dwcfi  save_reg_to_mem, 26, 0
      374 00000038 7622   EALLOW
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    8
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE    8
 
      375                      .dwpsn  file "C:/ti/motorware/motorware_1_01_00_14/sw/drivers/pwr/src/32b/f28x/f2806x/pwr.c",line 77,
      376 00000039 A8A9          MOVL      ACC,XAR4              ; [CPU_] |77| 
@@ -478,10 +478,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    8
      425              $C$DW$32        .dwtag  DW_TAG_variable, DW_AT_name("pwrHandle")
      426                      .dwattr $C$DW$32, DW_AT_TI_symbol_name("_pwrHandle")
      427                      .dwattr $C$DW$32, DW_AT_type(*$C$DW$T$32)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    9
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE    9
 
      428                      .dwattr $C$DW$32, DW_AT_location[DW_OP_reg12]
      429                      .dwcfi  cfa_offset, -2
@@ -538,10 +538,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE    9
      479              $C$DW$51        .dwtag  DW_TAG_enumerator, DW_AT_name("PWR_NumStandByClocks_15"), DW_AT_const_value(0x34)
      480              $C$DW$52        .dwtag  DW_TAG_enumerator, DW_AT_name("PWR_NumStandByClocks_16"), DW_AT_const_value(0x38)
      481              $C$DW$53        .dwtag  DW_TAG_enumerator, DW_AT_name("PWR_NumStandByClocks_17"), DW_AT_const_value(0x3c)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   10
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE   10
 
      482              $C$DW$54        .dwtag  DW_TAG_enumerator, DW_AT_name("PWR_NumStandByClocks_18"), DW_AT_const_value(0x40)
      483              $C$DW$55        .dwtag  DW_TAG_enumerator, DW_AT_name("PWR_NumStandByClocks_19"), DW_AT_const_value(0x44)
@@ -598,10 +598,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   10
      534                      .dwattr $C$DW$T$27, DW_AT_language(DW_LANG_C)
      535              $C$DW$102       .dwtag  DW_TAG_TI_far_type
      536                      .dwattr $C$DW$102, DW_AT_type(*$C$DW$T$27)
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   11
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE   11
 
      537              $C$DW$T$28      .dwtag  DW_TAG_const_type
      538                      .dwattr $C$DW$T$28, DW_AT_type(*$C$DW$102)
@@ -658,10 +658,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   11
      589              $C$DW$T$6       .dwtag  DW_TAG_base_type
      590                      .dwattr $C$DW$T$6, DW_AT_encoding(DW_ATE_unsigned_char)
      591                      .dwattr $C$DW$T$6, DW_AT_name("unsigned char")
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   12
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE   12
 
      592                      .dwattr $C$DW$T$6, DW_AT_byte_size(0x01)
      593              $C$DW$T$7       .dwtag  DW_TAG_base_type
@@ -718,10 +718,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   12
      644              $C$DW$T$14      .dwtag  DW_TAG_base_type
      645                      .dwattr $C$DW$T$14, DW_AT_encoding(DW_ATE_signed)
      646                      .dwattr $C$DW$T$14, DW_AT_name("long long")
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   13
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE   13
 
      647                      .dwattr $C$DW$T$14, DW_AT_byte_size(0x04)
      648              $C$DW$T$15      .dwtag  DW_TAG_base_type
@@ -778,10 +778,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   13
      699                      .dwcfi  undefined, 5
      700                      .dwcfi  same_value, 6
      701                      .dwcfi  same_value, 7
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   14
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE   14
 
      702                      .dwcfi  same_value, 8
      703                      .dwcfi  same_value, 9
@@ -838,10 +838,10 @@ C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   14
      754              $C$DW$127       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("AMODE")
      755                      .dwattr $C$DW$127, DW_AT_location[DW_OP_regx 0x22]
      756              $C$DW$128       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("INTM")
-TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 10:37:10 2015
+TMS320C2000 Assembler PC v6.4.4 Wed Jul 08 12:49:34 2015
 
 Tools Copyright (c) 1996-2015 Texas Instruments Incorporated
-C:\Users\grant\AppData\Local\Temp\0254810                            PAGE   15
+C:\Users\grant\AppData\Local\Temp\0566411                            PAGE   15
 
      757                      .dwattr $C$DW$128, DW_AT_location[DW_OP_regx 0x23]
      758              $C$DW$129       .dwtag  DW_TAG_TI_assign_register, DW_AT_name("IFR")
