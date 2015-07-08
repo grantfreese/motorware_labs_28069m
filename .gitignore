@@ -3,3 +3,5 @@
 /.metadata
 /dvt
 /RemoteSystemsTempFiles
+.settings
+.launches
