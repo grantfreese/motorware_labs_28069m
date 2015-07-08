@@ -81,7 +81,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="F28069M.cmd|f28069F_ram_lnk.cmd|test_fast_secure_flash.cmd|memCopy.c|F28069F.cmd" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="drivers/F28069M.cmd|F28069M.cmd|f28069F_ram_lnk.cmd|test_fast_secure_flash.cmd|memCopy.c|F28069F.cmd" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

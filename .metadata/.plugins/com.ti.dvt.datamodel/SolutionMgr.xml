@@ -5,7 +5,7 @@
    <string>defaultSolution</string>
    <void method="set">
     <object idref="SolutionManager$PersistState0"/>
-    <string>C:\work\ws_ccs_motorware\dvt\AnalysisSolutionsTemp\AnalysisSolution1436309746474\null</string>
+    <string>C:\ti\ccsv6\ccs_base\dvt_4.0.0.201501151820\FunctionProfile\solutions\null - CoverageProfile</string>
    </void>
   </void>
  </object>
@@ -14,16 +14,16 @@
  <void id="ArrayList0" method="get">
   <object idref="SolutionManager$PersistState0"/>
   <void method="add">
-   <string>C:\ti\ccsv6\ccs_base\dvt_4.0.0.201501151820\CodeGen\solutions\CodeGenCoverage</string>
+   <string>C:\work\ws_ccs_motorware\dvt\AnalysisSolutionsTemp\AnalysisSolution1436375267805\null</string>
+  </void>
+  <void method="add">
+   <string>C:\ti\ccsv6\ccs_base\dvt_4.0.0.201501151820\FunctionProfile\solutions\null - FunctionProfile</string>
   </void>
   <void method="add">
    <string>C:\ti\ccsv6\ccs_base\dvt_4.0.0.201501151820\FunctionProfile\solutions\null - CoverageProfile</string>
   </void>
   <void method="add">
-   <string>C:\work\ws_ccs_motorware\dvt\AnalysisSolutionsTemp\AnalysisSolution1436309746474\null</string>
-  </void>
-  <void method="add">
-   <string>C:\ti\ccsv6\ccs_base\dvt_4.0.0.201501151820\FunctionProfile\solutions\null - FunctionProfile</string>
+   <string>C:\ti\ccsv6\ccs_base\dvt_4.0.0.201501151820\CodeGen\solutions\CodeGenCoverage</string>
   </void>
  </void>
 </void>

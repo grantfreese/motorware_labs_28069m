@@ -40,7 +40,6 @@ ORDERED_OBJS += \
 "C:/ti/motorware/motorware_1_01_00_14/sw/modules/fast/lib/32b/f28x/f2806x/2806xRevB_FastSpinROMSymbols.lib" \
 "C:/ti/motorware/motorware_1_01_00_14/sw/modules/iqmath/lib/f28x/32b/IQmath.lib" \
 "C:/ti/motorware/motorware_1_01_00_14/sw/modules/spintac/lib/32b/SpinTAC.lib" \
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/F28069M.cmd" \
 "C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069M_ram_lnk.cmd" \
 $(GEN_CMDS__FLAG) \
 

@@ -4,7 +4,6 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CMD_SRCS += \
-C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/F28069F.cmd \
 C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd 
 
 ASM_SRCS += \

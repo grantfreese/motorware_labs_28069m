@@ -149,83 +149,9 @@
 ' '
 'Building target: foc_proj_lab02c.out'
 'Invoking: C2000 Linker'
-"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number -z -m"foc_proj_lab02c.map" --stack_size=0x3B0 --warn_sections -i"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --reread_libs --priority --disable_auto_rts --diag_suppress=16002 --xml_link_info="foc_proj_lab02c_linkInfo.xml" --rom_model -o "foc_proj_lab02c.out" -l"rts2800_ml.lib" "./proj_lab02c.obj" "./drivers/CodeStartBranch.obj" "./drivers/adc.obj" "./drivers/clarke.obj" "./drivers/clk.obj" "./drivers/cpu.obj" "./drivers/ctrl.obj" "./drivers/drv8301.obj" "./drivers/filter_fo.obj" "./drivers/flash.obj" "./drivers/gpio.obj" "./drivers/hal.obj" "./drivers/ipark.obj" "./drivers/memCopy.obj" "./drivers/offset.obj" "./drivers/osc.obj" "./drivers/park.obj" "./drivers/pid.obj" "./drivers/pie.obj" "./drivers/pll.obj" "./drivers/pwm.obj" "./drivers/pwr.obj" "./drivers/spi.obj" "./drivers/svgen.obj" "./drivers/timer.obj" "./drivers/traj.obj" "./drivers/usDelay.obj" "./drivers/user.obj" "./drivers/wdog.obj" "C:/ti/motorware/motorware_1_01_00_14/sw/modules/fast/lib/32b/f28x/f2806x/2806xRevB_FastSpinROMSymbols.lib" "C:/ti/motorware/motorware_1_01_00_14/sw/modules/iqmath/lib/f28x/32b/IQmath.lib" "C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/F28069F.cmd" "C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd"  
+"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/bin/cl2000" -v28 -ml -mt -O2 -g --define=FAST_ROM_V1p6 --diag_warning=225 --display_error_number -z -m"foc_proj_lab02c.map" --stack_size=0x3B0 --warn_sections -i"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-c2000_6.4.4/include" --reread_libs --priority --disable_auto_rts --diag_suppress=16002 --xml_link_info="foc_proj_lab02c_linkInfo.xml" --rom_model -o "foc_proj_lab02c.out" -l"rts2800_ml.lib" "./proj_lab02c.obj" "./drivers/CodeStartBranch.obj" "./drivers/adc.obj" "./drivers/clarke.obj" "./drivers/clk.obj" "./drivers/cpu.obj" "./drivers/ctrl.obj" "./drivers/drv8301.obj" "./drivers/filter_fo.obj" "./drivers/flash.obj" "./drivers/gpio.obj" "./drivers/hal.obj" "./drivers/ipark.obj" "./drivers/memCopy.obj" "./drivers/offset.obj" "./drivers/osc.obj" "./drivers/park.obj" "./drivers/pid.obj" "./drivers/pie.obj" "./drivers/pll.obj" "./drivers/pwm.obj" "./drivers/pwr.obj" "./drivers/spi.obj" "./drivers/svgen.obj" "./drivers/timer.obj" "./drivers/traj.obj" "./drivers/usDelay.obj" "./drivers/user.obj" "./drivers/wdog.obj" "C:/ti/motorware/motorware_1_01_00_14/sw/modules/fast/lib/32b/f28x/f2806x/2806xRevB_FastSpinROMSymbols.lib" "C:/ti/motorware/motorware_1_01_00_14/sw/modules/iqmath/lib/f28x/32b/IQmath.lib" "C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd"  
 <Linking>
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 79: error #10263: 
-   BEGIN memory range has already been specified
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 81: error #10264: 
-   RAML0_L6 memory range overlaps existing memory range RAML0
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 81: error #10264: 
-   RAML0_L6 memory range overlaps existing memory range RAML1
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 83: error #10263: 
-   RESET memory range has already been specified
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 83: error #10264: 
-   RESET memory range overlaps existing memory range RESET
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 84: error #10263: 
-   FPUTABLES memory range has already been specified
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 84: error #10264: 
-   FPUTABLES memory range overlaps existing memory range FPUTABLES
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 85: error #10263: 
-   IQTABLES memory range has already been specified
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 85: error #10264: 
-   IQTABLES memory range overlaps existing memory range IQTABLES
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 86: error #10263: 
-   IQTABLES2 memory range has already been specified
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 86: error #10264: 
-   IQTABLES2 memory range overlaps existing memory range IQTABLES2
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 87: error #10263: 
-   IQTABLES3 memory range has already been specified
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 87: error #10264: 
-   IQTABLES3 memory range overlaps existing memory range IQTABLES3
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 89: error #10264: 
-   BOOTROM memory range overlaps existing memory range ROM
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 94: error #10263: 
-   BOOT_RSVD memory range has already been specified
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 94: error #10264: 
-   BOOT_RSVD memory range overlaps existing memory range BOOT_RSVD
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 95: error #10263: 
-   RAMM1 memory range has already been specified
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 95: error #10264: 
-   RAMM1 memory range overlaps existing memory range RAMM1
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 96: error #10263: 
-   USB_RAM memory range has already been specified
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 96: error #10264: 
-   USB_RAM memory range overlaps existing memory range USB_RAM
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 107: warning #10190-D: 
-   absolute symbol "_RamfuncsLoadStart" being redefined
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 108: warning #10190-D: 
-   absolute symbol "_RamfuncsLoadEnd" being redefined
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 109: warning #10190-D: 
-   absolute symbol "_RamfuncsRunStart" being redefined
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 107: warning #10190-D: 
-   absolute symbol "_RamfuncsLoadStart" being redefined
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 108: warning #10190-D: 
-   absolute symbol "_RamfuncsLoadEnd" being redefined
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 109: warning #10190-D: 
-   absolute symbol "_RamfuncsRunStart" being redefined
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 107: warning #10190-D: 
-   absolute symbol "_RamfuncsLoadStart" being redefined
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 108: warning #10190-D: 
-   absolute symbol "_RamfuncsLoadEnd" being redefined
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 109: warning #10190-D: 
-   absolute symbol "_RamfuncsRunStart" being redefined
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 107: warning #10272-D: 
-
-   section relative symbols from different output sections cannot be mixed;
->> Compilation failure
-   "_RamfuncsLoadStart" is in section "ramfuncs", "DOT operator" is in section
-   "ramfuncs"
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 108: warning #10272-D: 
-   section relative symbols from different output sections cannot be mixed;
-   "_RamfuncsLoadEnd" is in section "ramfuncs", "DOT operator" is in section
-   "ramfuncs"
-"C:/ti/motorware/motorware_1_01_00_14/sw/ide/ccs/cmd/f2806x/f28069F_ram_lnk.cmd", line 109: warning #10272-D: 
-   section relative symbols from different output sections cannot be mixed;
-   "_RamfuncsRunStart" is in section "ramfuncs", "DOT operator" is in section
-   "ramfuncs"
-error #10010: errors encountered during linking; "foc_proj_lab02c.out" not
-   built
-gmake: *** [foc_proj_lab02c.out] Error 1
-gmake: Target `all' not remade because of errors.
+'Finished building target: foc_proj_lab02c.out'
+' '
 
 **** Build Finished ****
