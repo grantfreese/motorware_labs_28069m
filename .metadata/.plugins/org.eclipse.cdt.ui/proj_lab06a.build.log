@@ -1,7 +1,0 @@
-
-**** Build of configuration Release for project proj_lab06a ****
-
-"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k -j 4 all 
-gmake: Nothing to be done for `all'.
-
-**** Build Finished ****
