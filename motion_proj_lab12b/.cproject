@@ -92,16 +92,21 @@
 						</tool>
 					</fileInfo>
 					<fileInfo id="com.ti.ccstudio.buildDefinitions.C2000.Debug.578143089.proj_lab12b.c" name="proj_lab12b.c" rcbsApplicability="disable" resourcePath="proj_lab12b.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_6.4.exe.compilerDebug.1008676996.1294045378">
-						<tool id="com.ti.ccstudio.buildDefinitions.C2000_6.4.exe.compilerDebug.1008676996.1294045378" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_6.4.exe.compilerDebug.1008676996">
+						<tool commandLinePattern="${command}xxx ${flags} ${inputs}" id="com.ti.ccstudio.buildDefinitions.C2000_6.4.exe.compilerDebug.1008676996.1294045378" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_6.4.exe.compilerDebug.1008676996">
 							<option id="com.ti.ccstudio.buildDefinitions.C2000_6.4.compilerID.DEFINE.404017858" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.C2000_6.4.compilerID.DEFINE" valueType="definedSymbols">
 								<listOptionValue builtIn="false" value="FAST_ROM_V1p6"/>
 								<listOptionValue builtIn="false" value="QEP"/>
-								<listOptionValue builtIn="false" value="J5"/>
 							</option>
 							<inputType id="com.ti.ccstudio.buildDefinitions.C2000_6.4.compiler.inputType__C_SRCS.179319989" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C2000_6.4.compiler.inputType__C_SRCS"/>
 							<inputType id="com.ti.ccstudio.buildDefinitions.C2000_6.4.compiler.inputType__CPP_SRCS.530910979" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C2000_6.4.compiler.inputType__CPP_SRCS"/>
 							<inputType id="com.ti.ccstudio.buildDefinitions.C2000_6.4.compiler.inputType__ASM_SRCS.988126965" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C2000_6.4.compiler.inputType__ASM_SRCS"/>
 							<inputType id="com.ti.ccstudio.buildDefinitions.C2000_6.4.compiler.inputType__ASM2_SRCS.27791896" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C2000_6.4.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.219651888" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.309300202" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.409354212" name="Resource Custom Build Step Output Type"/>
 						</tool>
 					</fileInfo>
 					<sourceEntries>
