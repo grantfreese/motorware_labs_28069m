@@ -203,7 +203,7 @@ extern "C" {
 #define Estun_EMJ_04APB22           101
 #define Anaheim_BLY172S             102
 #define Teknic_M2310PLN04K          104
-#define Maxim_323772				105
+#define Maxon_323772				105
 #define PMDM_BLDC24P16A				106
 
 // IPM motors
@@ -221,7 +221,7 @@ extern "C" {
 //#define USER_MOTOR Estun_EMJ_04APB22
 //#define USER_MOTOR Anaheim_BLY172S
 //#define USER_MOTOR Teknic_M2310PLN04K
-#define USER_MOTOR Maxim_323772
+#define USER_MOTOR Maxon_323772
 //#define USER_MOTOR PMDM_BLDC24P16A
 //#define USER_MOTOR Belt_Drive_Washer_IPM
 //#define USER_MOTOR Marathon_5K33GN2A
@@ -299,7 +299,7 @@ extern "C" {
 #define USER_MOTOR_MAX_CURRENT          (7.0)
 #define USER_MOTOR_FLUX_EST_FREQ_Hz     (20.0)
 
-#elif (USER_MOTOR == Maxim_323772)
+#elif (USER_MOTOR == Maxon_323772)
 #define USER_MOTOR_TYPE                 MOTOR_Type_Pm
 #define USER_MOTOR_NUM_POLE_PAIRS       (12)
 #define USER_MOTOR_Rr                   (NULL)
