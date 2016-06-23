@@ -1,7 +1,8 @@
 **/Release
 **/Flash
+.settings/
 /.metadata
 /dvt
 /RemoteSystemsTempFiles
-.settings
+
 .launches
