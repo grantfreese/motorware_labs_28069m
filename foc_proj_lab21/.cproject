@@ -4,7 +4,7 @@
 		<cconfiguration id="com.ti.ccstudio.buildDefinitions.C2000.Debug.1818092712.872911405">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.1818092712.872911405" moduleId="org.eclipse.cdt.core.settings" name="Release">
 				<macros>
-					<stringMacro name="MW_INSTALL_DIR" type="VALUE_TEXT" value="${CCS_INSTALL_ROOT}\..\motorware\motorware_1_01_00_14"/>
+					<stringMacro name="MW_INSTALL_DIR" type="VALUE_TEXT" value="${CCS_INSTALL_ROOT}\..\motorware\motorware_1_01_00_16"/>
 					<stringMacro name="ORIGINAL_PROJECT_ROOT" type="VALUE_PATH_DIR" value="C:/Users/grant/Desktop/temp/foc_proj_lab21"/>
 				</macros>
 				<externalSettings/>
@@ -105,7 +105,7 @@
 		<cconfiguration id="com.ti.ccstudio.buildDefinitions.C2000.Debug.1818092712.985935850">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.1818092712.985935850" moduleId="org.eclipse.cdt.core.settings" name="Flash">
 				<macros>
-					<stringMacro name="MW_INSTALL_DIR" type="VALUE_TEXT" value="${CCS_INSTALL_ROOT}\..\motorware\motorware_1_01_00_14"/>
+					<stringMacro name="MW_INSTALL_DIR" type="VALUE_TEXT" value="${CCS_INSTALL_ROOT}\..\motorware\motorware_1_01_00_16"/>
 					<stringMacro name="ORIGINAL_PROJECT_ROOT" type="VALUE_PATH_DIR" value="C:/Users/grant/Desktop/temp/foc_proj_lab21"/>
 				</macros>
 				<externalSettings/>
